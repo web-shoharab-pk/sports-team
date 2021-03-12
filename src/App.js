@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Home from './components/Home/Home';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
 
         </Route>
         <Route path="/">
-
+            <Home />
         </Route>
       </Switch>
     </Router>
